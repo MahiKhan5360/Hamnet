@@ -41,4 +41,4 @@ if torch.cuda.is_available():
     print(f"CUDA device: {torch.cuda.get_device_name(0)}")
     print(f"CUDA version: {torch.version.cuda}")
 else:
-    print("Running on CPU. To use GPU, enable it in Notebook settings.")
+    print("Running on the CPU. To use the GPU, enable it in Notebook settings.")
